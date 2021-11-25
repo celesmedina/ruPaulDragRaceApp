@@ -1,7 +1,7 @@
 export function getDragQueens(limit, offset) {
   return function (dispatch) {
     return fetch(
-      "http://www.nokeynoshade.party/api/queens?limit=" +
+      "https://www.nokeynoshade.party/api/queens?limit=" +
         limit +
         "&offset=" +
         offset

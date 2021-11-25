@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div>
-        <img id="logoDragRace" src="/Original_logo.png" alt="" />
+        <img id="logoDragRace" src="/Original_Logo.png" alt="" />
       </div>
       <nav>
         <ul className="list">
