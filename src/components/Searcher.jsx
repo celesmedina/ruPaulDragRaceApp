@@ -10,7 +10,7 @@ import "./Searcher.css";
 function Searcher(props) {
   const [offset, setOffset] = useState(1);
   const [limit, setLimit] = useState(10);
-  const [form, setForm] = React.useState("");
+  // const [form, setForm] = React.useState("");
 
   const handleClick = (e) => {
     let newOffset = offset + limit;
@@ -20,9 +20,9 @@ function Searcher(props) {
   const handleDropdownChange = (e) => {
     setLimit(e.target.value);
   };
-  const handleChange = (event) => {
-    setForm(event.target.value);
-  };
+  // const handleChange = (event) => {
+  //   setForm(event.target.value);
+  // };
 
   const handleSubmit = (event) => {
     event.preventDefault();

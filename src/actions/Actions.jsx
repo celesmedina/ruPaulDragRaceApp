@@ -1,5 +1,3 @@
-import React from "react";
-
 export function getDragQueens(limit, offset) {
   return function (dispatch) {
     return fetch(

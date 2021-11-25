@@ -1,10 +1,10 @@
 import React from "react";
-import CardCSS from "./Card.css";
+import "./Card.css";
 export default function Card(props) {
   return (
     <div class="card">
       <div class="card-img">
-        <img src={props.img} />
+        <img src={props.img} alt="" />
       </div>
       <div class="card-body">
         <div class="card-info">{props.name}</div>

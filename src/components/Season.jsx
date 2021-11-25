@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { getSeason } from "../actions/Actions";
 import { connect } from "react-redux";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 function Season(props) {
-  let { id } = useParams();
-  useEffect(() => {
-    props.getSeason(id);
-  }, []); //ComponentDidMount
+  // let { id } = useParams();
+  // useEffect(() => {
+  //   props.getSeason(id);
+  // }, []); //ComponentDidMount
   return (
     <div>
       <ul>
