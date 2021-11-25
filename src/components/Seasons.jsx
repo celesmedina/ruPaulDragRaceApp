@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { getAllSeasons } from "../actions/Actions";
 
 function Seasons(props) {
-  useEffect(() => {
-    props.getAllSeasons();
-  }, []);
+  // useEffect(() => {
+  //   props.getAllSeasons();
+  // }, []);
 
   return (
     <div>
@@ -18,7 +18,7 @@ function Seasons(props) {
               {s.seasonNumber}{" "}
               <p>
                 {" "}
-                <img src={s.image_url} />
+                <img src={s.image_url} alt="" />
               </p>{" "}
             </Link>
           </li>
